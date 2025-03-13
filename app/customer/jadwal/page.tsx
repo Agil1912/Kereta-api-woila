@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { getServerCookie } from "@/helper/server.cookie";
 import FilterJadwal from "./FilterJadwal";
 import { axiosInstance } from "@/helper/api";

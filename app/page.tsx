@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { axiosInstance } from "@/helper/api";
 import { storesCookie } from "@/helper/client.cookkie";
 import { useRouter } from "next/navigation";

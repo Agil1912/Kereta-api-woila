@@ -1,6 +1,6 @@
 import { ScheduleType } from "@/app/karyawan/types";
 import Link from "next/link";
-
+export const dynamic = "force-dynamic";
 type Props = {
   item: ScheduleType;
 };

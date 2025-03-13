@@ -3,6 +3,7 @@ import { axiosInstance } from "@/helper/api";
 import Schedule from "./Schedule";
 import { getServerCookie } from "@/helper/server.cookie";
 import AddSchedule from "./addSchedule";
+export const dynamic = "force-dynamic";
 
 /** get data jadwal */
 const getJadwal = async (): Promise<ScheduleType[]> => {

@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { axiosInstance } from "@/helper/api";
 import { getServerCookie } from "@/helper/server.cookie";
 import React from "react";

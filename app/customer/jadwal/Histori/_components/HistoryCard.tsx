@@ -1,4 +1,5 @@
-import { Purcase, ScheduleType, Train } from "@/app/karyawan/types";
+export const dynamic = "force-dynamic";
+import { Purcase, ScheduleType } from "@/app/karyawan/types";
 import { showType } from "@/app/karyawan/jadwal/Schedule";
 
 interface History {

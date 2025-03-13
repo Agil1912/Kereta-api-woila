@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { Train, ScheduleType } from "@/app/karyawan/types";
 import { axiosInstance } from "@/helper/api";
 import { getServerCookie } from "@/helper/server.cookie";
